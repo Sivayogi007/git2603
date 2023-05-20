@@ -18,6 +18,9 @@ node () {
 sh """ 
 echo $input1 
  """ 
+		stage(' ABCD -Deploy'){
+		println "Ansible deployment"
+		}
 	}
 }
 }
